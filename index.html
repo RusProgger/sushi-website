@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&display=swap" rel="stylesheet">
+    <!-- script js jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- stylesheet css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Суши - Заказать доставку домой</title>
+</head>
+<body>
+    <div class="loader"></div>
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__container">
+                <div class="topnav">
+                    <div class="logo">
+                        <a href="#" aria-label="Logo">SushiRoll</a>
+                    </div>
+                    <div class="bars"><i class='fa fa-bars'></i></div>
+                    <ul class="nav">
+                        <li class="nav__item"><a href="#main-page" class="nav__link nav__link-active" aria-label="Главная"><i class="fa-solid fa-house"></i>Главная</a></li>
+                        <li class="nav__item"><a href="#sets-page" class="nav__link" aria-label="Сеты"><i class="fa-solid fa-box"></i>Сеты</a></li>
+                        <li class="nav__item"><a href="#rolls-page" class="nav__link" aria-label="Роллы"><i class="fa-solid fa-bowl-food"></i>Роллы</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link" aria-label="Акции"><i class="fa-solid fa-hand-peace"></i>Акции</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link" aria-label="Доставка"><i class="fa-solid fa-truck"></i>Доставка</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <section class="banner-slide" id="main-page">
+            <div class="bxslider">
+                <div>
+                    <img src="images/header.jpg" alt="shushi">
+                    <div class="slide-text">Заказ суши в Николаеве по самым лучшим ценам и с неизменно высоким качеством!</div>
+                    <a class="slide-link" href="" aria-label="Меню">Меню</a>
+                </div>
+                <div>
+                    <img src="images/header1.jpg" alt="shushi">
+                    <div class="slide-text">Мы предлагаем обширное меню с лучшими и самыми популярными блюдами японской кухни</div>
+                </div>
+                <div>
+                    <img src="images/header2.jpg" alt="shushi">
+                    <div class="slide-text">Наши повара ответственно подходят к тому, чтобы оставить клиента максимально довольным и сытым</div>
+                </div>
+            </div>
+        </section>
+    </header>
+    
+    <main class="main">
+        <section class="main__sets main__sets-bg">
+            <div class="container">
+                <h2 class="main__sets-title title" id="sets-page">Сеты на заказ</h2>
+
+                <div class="main__sets-card">
+                    <div class="main__sets-card-item">
+                        <img src="images/sets/sets1.png" alt="sets1">
+                        <div class="main__sets-card-text">Суши торт</div>
+                        <div class="main__sets-card-desc">СУШИ-ТОРТ – это 14 самых популярных и разнообразных роллов (всего 110 кусочков). Удивите ваших друзей или сотрудников.</div>
+                        <div class="main__sets-card-price">2 100грн</div>
+                        <button class="main__sets-card-button btn">Купить</button>
+                    </div>
+
+                    <div class="main__sets-card-item">
+                        <img src="images/sets/sets2.png" alt="sets2">
+                        <div class="main__sets-card-text">Сет Семейный</div>
+                        <div class="main__sets-card-desc">Радуга-1, Эби Манго-1, Футомаки с креветкой-1, Эби Сирогома-1, Флорида-1, Золотой Дракон-1, Вип Драйв-1.</div>
+                        <div class="main__sets-card-price">1 300грн</div>
+                        <button class="main__sets-card-button btn">Купить</button>
+                    </div>
+
+                    <div class="main__sets-card-item">
+                        <img src="images/sets/sets3.png" alt="sets3">
+                        <div class="main__sets-card-text">Сет Мальчишник</div>
+                        <div class="main__sets-card-desc">Это 14 самых популярных и разнообразных роллов!!.Наполни свой день эксклюзивом. Удивите ваших друзей или сотрудников</div>
+                        <div class="main__sets-card-price">2 400грн</div>
+                        <button class="main__sets-card-button btn">Купить</button>
+                    </div>
+
+                    <div class="main__sets-card-item">
+                        <img src="images/sets/sets4.png" alt="sets4">
+                        <div class="main__sets-card-text">Сет Девичник</div>
+                        <div class="main__sets-card-desc">Скамья ролл-2 шт., Пирамида-2 шт., Бангкок-1 шт., Филадельфия де люкс-1 шт., Эби Сирогама-1 шт.</div>
+                        <div class="main__sets-card-price">1 800грн</div>
+                        <button class="main__sets-card-button btn">Купить</button>
+                    </div>
+
+                    <div class="main__sets-card-item">
+                        <img src="images/sets/sets5.png" alt="sets5">
+                        <div class="main__sets-card-text">Сет Белочка</div>
+                        <div class="main__sets-card-desc">Филадельфия лосось, терриак лосось, маки сливочный тунец, лосось темпура. Удивите ваших друзей или сотрудников</div>
+                        <div class="main__sets-card-price">1 100грн</div>
+                        <button class="main__sets-card-button btn">Купить</button>
+                    </div>
+
+                    <div class="main__sets-card-item">
+                        <img src="images/sets/sets6.png" alt="sets6">
+                        <div class="main__sets-card-text">Сет история любви</div>
+                        <div class="main__sets-card-desc">Роллы: Кранч ролл с лососем, Филадельфия лосось, Маки сливочный лосось, Филадельфия креветка</div>
+                        <div class="main__sets-card-price">850грн</div>
+                        <button class="main__sets-card-button btn">Купить</button>
+                    </div>
+
+                    <div class="main__sets-card-item">
+                        <img src="images/sets/set7.jpg" alt="sets7">
+                        <div class="main__sets-card-text">Сет Эйфория</div>
+                        <div class="main__sets-card-desc">Роллы: Маки тунец, Филадельфия Лосось, Сякэ Кунсей, Лосось терияки. Райское наслаждение. Всего: 800 грамм/30 шт</div>
+                        <div class="main__sets-card-price">650грн</div>
+                        <button class="main__sets-card-button btn">Купить</button>
+                    </div>
+
+                    <div class="main__sets-card-item">
+                        <img src="images/sets/set8.jpg" alt="sets8">
+                        <div class="main__sets-card-text">Унаги сет</div>
+                        <div class="main__sets-card-desc">Золотой дракон, филадельфия  угорь, калифорния угорь, маки угорь, нигири угорь-2шт., гунканы угорь-2шт.</div>
+                        <div class="main__sets-card-price">950грн</div>
+                        <button class="main__sets-card-button btn">Купить</button>
+                    </div>
+
+                    <div class="main__sets-card-item">
+                        <img src="images/sets/set9.jpg" alt="sets9">
+                        <div class="main__sets-card-text">Сет Гурман</div>
+                        <div class="main__sets-card-desc">Золотой дракон, филадельфия  угорь, калифорния угорь, маки угорь, нигири угорь-2шт., гунканы угорь-2шт.</div>
+                        <div class="main__sets-card-price">1000грн</div>
+                        <button class="main__sets-card-button btn">Купить</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main__rolls main__rolls-bg">
+            <div class="container">
+                <h2 class="main__rolls-title title" id="rolls-page">Роллы на заказ</h2>
+
+                <div class="main__rolls-card">
+                    <div class="main__rolls-card-item">
+                        <img src="images/rolls/1.jpg" alt="rolls1">
+                        <div class="main__rolls-card-item-text">Лава ролл</div>
+                        <div class="main__rolls-card-item-desc">Рис, нори, креветка тигровая, лосось, угорь, сыр филадельфия, огурец, икра Тобико, массаго соус, унаги соус.</div>
+                        <div class="main__rolls-card-item-price">150грн</div>
+                        <button class="main__rolls-card-item-button btn">Купить</button>
+                    </div>
+                    <div class="main__rolls-card-item">
+                        <img src="images/rolls/2.jpg" alt="rolls2">
+                        <div class="main__rolls-card-item-text">ВИП Драйв</div>
+                        <div class="main__rolls-card-item-desc">Рис, нори, угорь копченый, лосось, темпурная креветка, сливочный сыр Филадельфия, салат чука, соус унаги, кунжут белый.</div>
+                        <div class="main__rolls-card-item-price">150грн</div>
+                        <button class="main__rolls-card-item-button btn">Купить</button>
+                    </div>
+                    <div class="main__rolls-card-item">
+                        <img src="images/rolls/3.jpg" alt="rolls3">
+                        <div class="main__rolls-card-item-text">Филадельфия Vip</div>
+                        <div class="main__rolls-card-item-desc">Рис, нори, лосось, угорь, сыр Креметте, авокадо, огурец, икра тобико. Райское наслаждение.</div>
+                        <div class="main__rolls-card-item-price">250грн</div>
+                        <button class="main__rolls-card-item-button btn">Купить</button>
+                    </div>
+                    <div class="main__rolls-card-item">
+                        <img src="images/rolls/4.jpg" alt="rolls4">
+                        <div class="main__rolls-card-item-text">Маруськин кайф</div>
+                        <div class="main__rolls-card-item-desc">Рис, нори, лосось, сливочный сыр Филадельфия, красная икра, копченый угорь, авокадо.</div>
+                        <div class="main__rolls-card-item-price">280грн</div>
+                        <button class="main__rolls-card-item-button btn">Купить</button>
+                    </div>
+                    <div class="main__rolls-card-item">
+                        <img src="images/rolls/5.jpg" alt="rolls5">
+                        <div class="main__rolls-card-item-text">Флорида</div>
+                        <div class="main__rolls-card-item-desc"> Рис, нори, лосось, тунец, угорь, сливочный творог, тунец, горчица, красная икра, копченный угорь.</div>
+                        <div class="main__rolls-card-item-price">380грн</div>
+                        <button class="main__rolls-card-item-button btn">Купить</button>
+                    </div>
+                    <div class="main__rolls-card-item">
+                        <img src="images/rolls/6.jpg" alt="rolls6">
+                        <div class="main__rolls-card-item-text">Филадельфия Блэк</div>
+                        <div class="main__rolls-card-item-desc">Рис, нори, чернила каракатицы, лосось, сыр сливочный Филадельфия, огурец, авокадо, сыр, черная икра.</div>
+                        <div class="main__rolls-card-item-price">220грн</div>
+                        <button class="main__rolls-card-item-button btn">Купить</button>
+                    </div>
+                    <div class="main__rolls-card-item">
+                        <img src="images/rolls/7.jpg" alt="rolls7">
+                        <div class="main__rolls-card-item-text">Тобико Блэк</div>
+                        <div class="main__rolls-card-item-desc">Рис, нори, чернила каракатицы, лосось, сыр сливочный Филадельфия, огурец, икра Тобико, острый перец.</div>
+                        <div class="main__rolls-card-item-price">350грн</div>
+                        <button class="main__rolls-card-item-button btn">Купить</button>
+                    </div>
+                    <div class="main__rolls-card-item">
+                        <img src="images/rolls/8.jpg" alt="rolls8">
+                        <div class="main__rolls-card-item-text">Бангкок</div>
+                        <div class="main__rolls-card-item-desc">Филадельфия лосось, сливочный творог, огурец-4 шт. Филадельфия копченый угорь, сливочный сыр, огурец -4 шт.</div>
+                        <div class="main__rolls-card-item-price">370грн</div>
+                        <button class="main__rolls-card-item-button btn">Купить</button>
+                    </div>
+                    <div class="main__rolls-card-item">
+                        <img src="images/rolls/9.jpg" alt="rolls9">
+                        <div class="main__rolls-card-item-text">Маска ролл</div>
+                        <div class="main__rolls-card-item-desc">Рис, нори, тунец, лосось, угорь, окунь, креветка, огурец, майонез, авокадо, омлет, яйцо, сыр, зелень.</div>
+                        <div class="main__rolls-card-item-price">450грн</div>
+                        <button class="main__rolls-card-item-button btn">Купить</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <!-- script loader js -->
+    <script src="./js/loader.js"></script>
+    <script src="./js/menu-mobile.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
