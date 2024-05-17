@@ -4,7 +4,7 @@
 	padding: 15px;
 	// position: relative; // от этого блока будет позиционироваться меню при выпаде
 	position: fixed;
-	z-index: 10000;
+	z-index: 999;
 	top: 0;
 	width: 100%;
 }
