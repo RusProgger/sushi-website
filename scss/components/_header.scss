@@ -9,6 +9,15 @@
 
 // slider 
 
+.bx-wrapper {
+    margin-bottom: 0;
+    border: 0;
+}
+
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    bottom: 25px;
+}
+
 .slide-text {
     position: absolute;
     top: 50%;

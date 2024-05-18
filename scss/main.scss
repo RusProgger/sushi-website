@@ -6,6 +6,9 @@
 @import 'components/container';
 @import 'components/sets';
 @import 'components/rolls';
+@import 'components/stock';
+@import 'components/track';
+@import 'components/footer';
 
 html {
     font-size: 16px;
@@ -34,3 +37,4 @@ body {
     font-size: clamp(1.5rem, 1.0824rem + 2.0879vw, 2.6875rem);
     color: #ffffff;
 }
+

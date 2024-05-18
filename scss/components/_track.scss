@@ -1,0 +1,59 @@
+.main__track {
+    padding: 50px 0 60px 0;
+
+    &-bg {
+        background-color: #000000;
+    }
+
+    &-title {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    &-body {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 20px;
+
+        &-item {
+            padding: 20px 10px;
+            flex: 0 1 calc(33.33% - 20px);
+
+            div {
+                display: flex;
+                flex-direction: column;
+
+                a {
+                    color: #ffffff;
+                    text-decoration: none;
+                    font-size: 18px;
+                    font-style: italic;
+                    font-weight: bold;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            &-text {
+                color: #d1cccc;
+                text-transform: uppercase;
+                padding-bottom: 10px;
+                font-size: 1.7rem;
+                position: relative;
+            }
+        }
+    }
+
+}
+
+.fa-car,
+.fa-circle-info,
+.fa-phone {
+    font-size: 2rem;
+    margin-right: 10px;
+    color: #082e58;
+}

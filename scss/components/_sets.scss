@@ -32,6 +32,7 @@
                 border-radius: 5px;
                 overflow: hidden;
                 transition: 0.3s;
+                position: relative;
 
                 &:hover {
                     box-shadow: 0px 0px 15px 1px #000000;
@@ -74,11 +75,13 @@
                 font-size: 1.5rem;
                 text-align: center;
                 padding-top: 25px;
-                padding-bottom: 25px;
+                padding-bottom: 65px;
                 color: #ffffff;
             }
 
             &-button {
+                position: absolute;
+                bottom: 0;
                 width: 100%;
                 display: block;
                 padding: 10px 0;
