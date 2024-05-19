@@ -268,8 +268,8 @@ select {
   padding: 50px 0 60px 0;
 }
 .main__sets-bg {
-  background: #16222A; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #16222A;
+  background: linear-gradient(to right, #020d12, #16222A);
 }
 .main__sets-title {
   padding-top: 50px;
